@@ -1,2 +1,2 @@
-# LightCraftMaven
-Maven repository for anything LightCraft related
+# OrionMaven
+Maven repository for anything OrionCraftMC related
