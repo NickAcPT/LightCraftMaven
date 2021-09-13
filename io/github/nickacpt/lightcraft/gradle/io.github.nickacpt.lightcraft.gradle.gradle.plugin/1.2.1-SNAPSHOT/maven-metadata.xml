@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.github.nickacpt.lightcraft.gradle</groupId>
+  <artifactId>io.github.nickacpt.lightcraft.gradle.gradle.plugin</artifactId>
+  <version>1.2.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210913.192352</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210913192352</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2.1-20210913.192352-1</value>
+        <updated>20210913192352</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

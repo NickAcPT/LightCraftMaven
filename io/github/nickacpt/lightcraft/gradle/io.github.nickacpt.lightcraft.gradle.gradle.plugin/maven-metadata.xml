@@ -3,11 +3,12 @@
   <groupId>io.github.nickacpt.lightcraft.gradle</groupId>
   <artifactId>io.github.nickacpt.lightcraft.gradle.gradle.plugin</artifactId>
   <versioning>
-    <latest>1.2-SNAPSHOT</latest>
+    <latest>1.2.1-SNAPSHOT</latest>
     <versions>
       <version>1.0-SNAPSHOT</version>
       <version>1.2-SNAPSHOT</version>
+      <version>1.2.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210911214200</lastUpdated>
+    <lastUpdated>20210913192421</lastUpdated>
   </versioning>
 </metadata>
