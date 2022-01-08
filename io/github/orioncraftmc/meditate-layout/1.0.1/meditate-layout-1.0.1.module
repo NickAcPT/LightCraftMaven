@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.orioncraftmc",
+    "module": "meditate-layout",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "meditate-layout-1.0.1.jar",
+          "url": "meditate-layout-1.0.1.jar",
+          "size": 161560,
+          "sha512": "3b518ad423442f8271895ebbd89a8f92f383b774f5c86c6e13ecedc49c5b62b7c4af4557b98c1eb81d8760bd13cada6789e8c47f513a717d191eec3052e49182",
+          "sha256": "82626ab072a46895423542faa9b4794b6389ed00a75cc225975c9fa1a14e3ab4",
+          "sha1": "b1d42d354819cbe1e76469d7bb0cf1816f3a96ac",
+          "md5": "525b30c045f634ed07bc9d4efdb2ab8b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "meditate-layout-1.0.1.jar",
+          "url": "meditate-layout-1.0.1.jar",
+          "size": 161560,
+          "sha512": "3b518ad423442f8271895ebbd89a8f92f383b774f5c86c6e13ecedc49c5b62b7c4af4557b98c1eb81d8760bd13cada6789e8c47f513a717d191eec3052e49182",
+          "sha256": "82626ab072a46895423542faa9b4794b6389ed00a75cc225975c9fa1a14e3ab4",
+          "sha1": "b1d42d354819cbe1e76469d7bb0cf1816f3a96ac",
+          "md5": "525b30c045f634ed07bc9d4efdb2ab8b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "meditate-layout-1.0.1-sources.jar",
+          "url": "meditate-layout-1.0.1-sources.jar",
+          "size": 85044,
+          "sha512": "e26a668ca9c35be14f8be6dc2f1bbf155801a99e525ef94517158dae9141607fd65c966e78025eb597099451e7127d303bce3fd7db740bd032543fee383d68ab",
+          "sha256": "32ee5964a0f3a9e4663788c6c0db682510a1e7094dea3d1e94fd4db81f2dc7d7",
+          "sha1": "a57adaca04786851d6252c1c206b12b54fa3e380",
+          "md5": "67f0c7f95d002da8c850108b3f9e47e0"
+        }
+      ]
+    }
+  ]
+}
