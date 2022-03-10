@@ -3,10 +3,11 @@
   <groupId>io.github.orioncraftmc</groupId>
   <artifactId>orion-components</artifactId>
   <versioning>
-    <latest>0.0.1-SNAPSHOT</latest>
+    <latest>0.0.2-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220310191707</lastUpdated>
+    <lastUpdated>20220310191950</lastUpdated>
   </versioning>
 </metadata>

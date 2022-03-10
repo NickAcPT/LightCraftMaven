@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.orioncraftmc",
+    "module": "orion-components",
+    "version": "0.0.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ajalt.colormath",
+          "module": "colormath",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "io.github.orioncraftmc",
+          "module": "meditate-layout",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orion-components-0.0.2-SNAPSHOT.jar",
+          "url": "orion-components-0.0.2-SNAPSHOT.jar",
+          "size": 39882,
+          "sha512": "772ab2ac2ca5212c750e8032d4f7039fcea27f6264924009a9a9e5768d17e9172d3b966d478d667b44f5b5d08e14d44bec8f4e98a3b6ad324665cb55f6acf957",
+          "sha256": "cbf6e7c7a1ab97d5893f813c2aa3adf95da2023daa7a583513441c83dba619d2",
+          "sha1": "748409ce482dfd4cd8c8ab469bda92023d9f92a5",
+          "md5": "c177f01ff7cd991e6ace4bdb247a3281"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ajalt.colormath",
+          "module": "colormath",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "io.github.orioncraftmc",
+          "module": "meditate-layout",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orion-components-0.0.2-SNAPSHOT.jar",
+          "url": "orion-components-0.0.2-SNAPSHOT.jar",
+          "size": 39882,
+          "sha512": "772ab2ac2ca5212c750e8032d4f7039fcea27f6264924009a9a9e5768d17e9172d3b966d478d667b44f5b5d08e14d44bec8f4e98a3b6ad324665cb55f6acf957",
+          "sha256": "cbf6e7c7a1ab97d5893f813c2aa3adf95da2023daa7a583513441c83dba619d2",
+          "sha1": "748409ce482dfd4cd8c8ab469bda92023d9f92a5",
+          "md5": "c177f01ff7cd991e6ace4bdb247a3281"
+        }
+      ]
+    }
+  ]
+}
