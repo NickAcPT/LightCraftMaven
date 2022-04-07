@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.github.nickacpt.lightclient</groupId>
+  <artifactId>LightClientGradle</artifactId>
+  <version>1.3.6-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20220407.192520</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20220407192520</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.3.6-20220407.192520-1</value>
+        <updated>20220407192520</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.3.6-20220407.192520-1</value>
+        <updated>20220407192520</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.3.6-20220407.192520-1</value>
+        <updated>20220407192520</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
