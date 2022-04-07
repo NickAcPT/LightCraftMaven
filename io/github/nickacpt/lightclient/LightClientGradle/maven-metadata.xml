@@ -3,7 +3,7 @@
   <groupId>io.github.nickacpt.lightclient</groupId>
   <artifactId>LightClientGradle</artifactId>
   <versioning>
-    <latest>1.3.4-SNAPSHOT</latest>
+    <latest>1.3.5-SNAPSHOT</latest>
     <versions>
       <version>1.0-SNAPSHOT</version>
       <version>1.2-SNAPSHOT</version>
@@ -12,7 +12,8 @@
       <version>1.3.2-SNAPSHOT</version>
       <version>1.3.3-SNAPSHOT</version>
       <version>1.3.4-SNAPSHOT</version>
+      <version>1.3.5-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20211215231334</lastUpdated>
+    <lastUpdated>20220407154235</lastUpdated>
   </versioning>
 </metadata>
