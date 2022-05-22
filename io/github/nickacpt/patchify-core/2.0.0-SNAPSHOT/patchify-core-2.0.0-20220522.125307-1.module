@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.nickacpt",
+    "module": "patchify-core",
+    "version": "2.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "patchify-core-2.0.0-SNAPSHOT.jar",
+          "url": "patchify-core-2.0.0-SNAPSHOT.jar",
+          "size": 16138,
+          "sha512": "7c3bfede2d1c653c2093ee1ab8801c8a7720fb394512bc05c1880967d8c3c151701230a32076bbfbc74f3599d62ad456677a0681dea777a605009d9b5225cf76",
+          "sha256": "7cd08f24a46d0031a10a803fce0681429c1b208e328fa966922c2559ca1f636f",
+          "sha1": "d3a084c69d27c172638e1d12b0ea4fc37c4f3434",
+          "md5": "27758c478c6a99d3c68e9c20bc6d8e43"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "patchify-core-2.0.0-SNAPSHOT.jar",
+          "url": "patchify-core-2.0.0-SNAPSHOT.jar",
+          "size": 16138,
+          "sha512": "7c3bfede2d1c653c2093ee1ab8801c8a7720fb394512bc05c1880967d8c3c151701230a32076bbfbc74f3599d62ad456677a0681dea777a605009d9b5225cf76",
+          "sha256": "7cd08f24a46d0031a10a803fce0681429c1b208e328fa966922c2559ca1f636f",
+          "sha1": "d3a084c69d27c172638e1d12b0ea4fc37c4f3434",
+          "md5": "27758c478c6a99d3c68e9c20bc6d8e43"
+        }
+      ]
+    }
+  ]
+}
