@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.github.orioncraftmc</groupId>
+  <artifactId>orion-launcher</artifactId>
+  <versioning>
+    <latest>0.0.3-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.2-SNAPSHOT</version>
+      <version>0.0.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220610233334</lastUpdated>
+  </versioning>
+</metadata>

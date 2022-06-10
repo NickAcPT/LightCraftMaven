@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.orioncraftmc",
+    "module": "orion-launcher",
+    "version": "0.0.3-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orion-launcher-0.0.3-SNAPSHOT.jar",
+          "url": "orion-launcher-0.0.3-SNAPSHOT.jar",
+          "size": 25706,
+          "sha512": "e4b579e3be21f00f86ea32e90563bd3e5f9e19b393e99646a7e1e0116cda5e95470d27a41337061446d26d64f8e71109b7265e56508ebe11d3a0eba261f68de2",
+          "sha256": "42b81bfcb2856a1ddc4c07988f200f10945eafa243e83493d8f8b51d141acc8a",
+          "sha1": "50cef89b5537df3a5034c8ede7af44f267490ff3",
+          "md5": "2a476225965475669aa693e61003198b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.6.3"
+          }
+        },
+        {
+          "group": "io.github.orioncraftmc",
+          "module": "sponge-mixin",
+          "version": {
+            "requires": "0.0.1+mixin.0.8.5"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "mapping-io",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orion-launcher-0.0.3-SNAPSHOT.jar",
+          "url": "orion-launcher-0.0.3-SNAPSHOT.jar",
+          "size": 25706,
+          "sha512": "e4b579e3be21f00f86ea32e90563bd3e5f9e19b393e99646a7e1e0116cda5e95470d27a41337061446d26d64f8e71109b7265e56508ebe11d3a0eba261f68de2",
+          "sha256": "42b81bfcb2856a1ddc4c07988f200f10945eafa243e83493d8f8b51d141acc8a",
+          "sha1": "50cef89b5537df3a5034c8ede7af44f267490ff3",
+          "md5": "2a476225965475669aa693e61003198b"
+        }
+      ]
+    }
+  ]
+}
