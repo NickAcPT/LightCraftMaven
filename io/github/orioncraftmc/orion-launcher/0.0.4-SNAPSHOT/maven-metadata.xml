@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.github.orioncraftmc</groupId>
+  <artifactId>orion-launcher</artifactId>
+  <version>0.0.4-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20220610.234830</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20220610234830</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.4-20220610.234830-1</value>
+        <updated>20220610234830</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.4-20220610.234830-1</value>
+        <updated>20220610234830</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.4-20220610.234830-1</value>
+        <updated>20220610234830</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
