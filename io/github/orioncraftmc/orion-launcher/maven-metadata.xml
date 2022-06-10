@@ -3,12 +3,13 @@
   <groupId>io.github.orioncraftmc</groupId>
   <artifactId>orion-launcher</artifactId>
   <versioning>
-    <latest>0.0.4-SNAPSHOT</latest>
+    <latest>0.0.5-SNAPSHOT</latest>
     <versions>
       <version>0.0.2-SNAPSHOT</version>
       <version>0.0.3-SNAPSHOT</version>
       <version>0.0.4-SNAPSHOT</version>
+      <version>0.0.5-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220610234834</lastUpdated>
+    <lastUpdated>20220610235058</lastUpdated>
   </versioning>
 </metadata>
