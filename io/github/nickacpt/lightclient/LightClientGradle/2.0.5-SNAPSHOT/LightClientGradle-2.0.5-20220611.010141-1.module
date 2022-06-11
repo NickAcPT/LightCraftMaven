@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.nickacpt.lightclient",
+    "module": "LightClientGradle",
+    "version": "2.0.5-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "LightClientGradle-2.0.5-SNAPSHOT.jar",
+          "url": "LightClientGradle-2.0.5-SNAPSHOT.jar",
+          "size": 173436,
+          "sha512": "19ce9c1d5653fe7cbba1d4db4f7f1a03c619f60606098cb24ced62dc1941fabe867e524ee58264712d2906f9976081fa3a4fa543038bd6628f3923affb9cc696",
+          "sha256": "4dcd85a746137cca1bab90f6ac91b112c8fbfc66b7e6ae073e139a4944351c44",
+          "sha1": "acd35b7b42076b2740ced336be09b2b56be10f37",
+          "md5": "7597364bf68cd3080c92c6a1677fdc8f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.32"
+          }
+        },
+        {
+          "group": "com.github.FabricMc",
+          "module": "mapping-io",
+          "version": {
+            "requires": "597f0722d6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.13.3"
+          }
+        },
+        {
+          "group": "org.quiltmc",
+          "module": "tiny-remapper",
+          "version": {
+            "requires": "0.4.3"
+          }
+        },
+        {
+          "group": "org.zeroturnaround",
+          "module": "zt-zip",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "org.quiltmc",
+          "module": "quiltflower",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.quiltmc",
+          "module": "stitch",
+          "version": {
+            "requires": "0.6.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "enigma"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "LightClientGradle-2.0.5-SNAPSHOT.jar",
+          "url": "LightClientGradle-2.0.5-SNAPSHOT.jar",
+          "size": 173436,
+          "sha512": "19ce9c1d5653fe7cbba1d4db4f7f1a03c619f60606098cb24ced62dc1941fabe867e524ee58264712d2906f9976081fa3a4fa543038bd6628f3923affb9cc696",
+          "sha256": "4dcd85a746137cca1bab90f6ac91b112c8fbfc66b7e6ae073e139a4944351c44",
+          "sha1": "acd35b7b42076b2740ced336be09b2b56be10f37",
+          "md5": "7597364bf68cd3080c92c6a1677fdc8f"
+        }
+      ]
+    }
+  ]
+}
