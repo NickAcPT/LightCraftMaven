@@ -3,7 +3,7 @@
   <groupId>io.github.orioncraftmc</groupId>
   <artifactId>orion-launcher</artifactId>
   <versioning>
-    <latest>0.0.9-SNAPSHOT</latest>
+    <latest>0.0.10-SNAPSHOT</latest>
     <versions>
       <version>0.0.2-SNAPSHOT</version>
       <version>0.0.3-SNAPSHOT</version>
@@ -13,7 +13,8 @@
       <version>0.0.7-SNAPSHOT</version>
       <version>0.0.8-SNAPSHOT</version>
       <version>0.0.9-SNAPSHOT</version>
+      <version>0.0.10-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220612153438</lastUpdated>
+    <lastUpdated>20220612182847</lastUpdated>
   </versioning>
 </metadata>
