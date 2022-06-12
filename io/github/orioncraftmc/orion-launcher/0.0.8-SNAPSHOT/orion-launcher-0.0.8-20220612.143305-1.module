@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.orioncraftmc",
+    "module": "orion-launcher",
+    "version": "0.0.8-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "sponge-mixin",
+          "version": {
+            "requires": "0.11.4+mixin.0.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orion-launcher-0.0.8-SNAPSHOT.jar",
+          "url": "orion-launcher-0.0.8-SNAPSHOT.jar",
+          "size": 32541,
+          "sha512": "38b09c03d24df825e9bf7db7ec15c429aabf18595fb0ef440b685489bf30e8ca4cc61041019209fc56fcda20379029c7a7631fa8cc8c87323685742047e83d02",
+          "sha256": "d85d961f2d8ae71892c0c186c4698ac35e0636d8bc427fee6926850adbf4bbd8",
+          "sha1": "a2967ffb90467cb2d80463453e4cc6b2427b4533",
+          "md5": "97e5b282aac71508a012421abfa04a68"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.6.3"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "mapping-io",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "23.0.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-remapper",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "sponge-mixin",
+          "version": {
+            "requires": "0.11.4+mixin.0.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orion-launcher-0.0.8-SNAPSHOT.jar",
+          "url": "orion-launcher-0.0.8-SNAPSHOT.jar",
+          "size": 32541,
+          "sha512": "38b09c03d24df825e9bf7db7ec15c429aabf18595fb0ef440b685489bf30e8ca4cc61041019209fc56fcda20379029c7a7631fa8cc8c87323685742047e83d02",
+          "sha256": "d85d961f2d8ae71892c0c186c4698ac35e0636d8bc427fee6926850adbf4bbd8",
+          "sha1": "a2967ffb90467cb2d80463453e4cc6b2427b4533",
+          "md5": "97e5b282aac71508a012421abfa04a68"
+        }
+      ]
+    }
+  ]
+}
