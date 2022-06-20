@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.nickacpt.behaviours",
+    "module": "canvas-behaviour",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "canvas-behaviour-0.0.1.jar",
+          "url": "canvas-behaviour-0.0.1.jar",
+          "size": 46922,
+          "sha512": "06cd9d26510a61c149036be4bdb01fd54f998dd33bc562e38f55f9d6b2cd339aad0354e366419a22bb2bccef980c3bc3bb29fd60426825f3cada475d6c44c52d",
+          "sha256": "f7a82de7c041fce05bb2a0b99b66df2a750ed051788215cad676063161fdd100",
+          "sha1": "99965a090dfd1951b6d10254b62ae3a0cacab1d9",
+          "md5": "e281a13bde60acfa88153c5eba3b04fc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "canvas-behaviour-0.0.1.jar",
+          "url": "canvas-behaviour-0.0.1.jar",
+          "size": 46922,
+          "sha512": "06cd9d26510a61c149036be4bdb01fd54f998dd33bc562e38f55f9d6b2cd339aad0354e366419a22bb2bccef980c3bc3bb29fd60426825f3cada475d6c44c52d",
+          "sha256": "f7a82de7c041fce05bb2a0b99b66df2a750ed051788215cad676063161fdd100",
+          "sha1": "99965a090dfd1951b6d10254b62ae3a0cacab1d9",
+          "md5": "e281a13bde60acfa88153c5eba3b04fc"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "canvas-behaviour-0.0.1-all.jar",
+          "url": "canvas-behaviour-0.0.1-all.jar",
+          "size": 1825172,
+          "sha512": "2a4cbc1505990730bf3e3f34c4e546bdcb0da25c8113e38c7fed9a5cb92d289f2d4a42931313c13dbcf02f5dff511d47e58718ac3c22f27328d2926a88886cd4",
+          "sha256": "06e9d0db67259321d815ca6423c37001fbbf654ad5a2ca3b85454500e8b01a35",
+          "sha1": "ff8403eb3af69d6e8911a972e5950311d55a0c26",
+          "md5": "8a733b4ea024772e7a76ecb0de8c6ffd"
+        }
+      ]
+    }
+  ]
+}
