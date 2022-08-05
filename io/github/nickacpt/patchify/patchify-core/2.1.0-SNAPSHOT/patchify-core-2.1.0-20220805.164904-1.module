@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.nickacpt.patchify",
+    "module": "patchify-core",
+    "version": "2.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "patchify-core-2.1.0-SNAPSHOT.jar",
+          "url": "patchify-core-2.1.0-SNAPSHOT.jar",
+          "size": 17480,
+          "sha512": "4a5fe0995ac5c094a6ce5cd0337cc41f24d54079d4cdfe97205c5dd8667085addc0ac5f987ac8e615ef8cb9f3035e0a2c6c7e723cea5fc6e9a5844a29415e414",
+          "sha256": "bd0fc01add5337b8356450544f9903008fd15918d203b34badf1a45501d47be1",
+          "sha1": "52496eee226f8e82e6b0a7b1dfb1f36fdfaf2c03",
+          "md5": "0071aa5770e108c54abe99f6c73a7ede"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "patchify-core-2.1.0-SNAPSHOT.jar",
+          "url": "patchify-core-2.1.0-SNAPSHOT.jar",
+          "size": 17480,
+          "sha512": "4a5fe0995ac5c094a6ce5cd0337cc41f24d54079d4cdfe97205c5dd8667085addc0ac5f987ac8e615ef8cb9f3035e0a2c6c7e723cea5fc6e9a5844a29415e414",
+          "sha256": "bd0fc01add5337b8356450544f9903008fd15918d203b34badf1a45501d47be1",
+          "sha1": "52496eee226f8e82e6b0a7b1dfb1f36fdfaf2c03",
+          "md5": "0071aa5770e108c54abe99f6c73a7ede"
+        }
+      ]
+    }
+  ]
+}

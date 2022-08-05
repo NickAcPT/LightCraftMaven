@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.github.nickacpt.patchify</groupId>
+  <artifactId>patchify-cli</artifactId>
+  <versioning>
+    <latest>2.1.0-SNAPSHOT</latest>
+    <versions>
+      <version>2.1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220805164909</lastUpdated>
+  </versioning>
+</metadata>

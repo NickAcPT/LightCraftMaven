@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.nickacpt.patchify",
+    "module": "gradle-plugin",
+    "version": "2.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "patchify-gradle-plugin-2.1.0-SNAPSHOT.jar",
+          "url": "patchify-gradle-plugin-2.1.0-SNAPSHOT.jar",
+          "size": 31918,
+          "sha512": "b38556ac27462e4c8df4c15ef55d5894f2a96e31fa026cc139d17b47ba465966355bbac3000a61b84792d9b3cfed32a1b07a256544360067480b11ce97d69f93",
+          "sha256": "1f8759a8ca3c00396f752dc374cc502d8979fa6c05a909192aa6d377d5707ddb",
+          "sha1": "924314489dce71f12d6e21b23f883ea89d6ce79a",
+          "md5": "06668684d6d26d6c92460093527ed51b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.github.nickacpt.patchify",
+          "module": "patchify-core",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.quiltmc",
+          "module": "quiltflower",
+          "version": {
+            "requires": "1.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "patchify-gradle-plugin-2.1.0-SNAPSHOT.jar",
+          "url": "patchify-gradle-plugin-2.1.0-SNAPSHOT.jar",
+          "size": 31918,
+          "sha512": "b38556ac27462e4c8df4c15ef55d5894f2a96e31fa026cc139d17b47ba465966355bbac3000a61b84792d9b3cfed32a1b07a256544360067480b11ce97d69f93",
+          "sha256": "1f8759a8ca3c00396f752dc374cc502d8979fa6c05a909192aa6d377d5707ddb",
+          "sha1": "924314489dce71f12d6e21b23f883ea89d6ce79a",
+          "md5": "06668684d6d26d6c92460093527ed51b"
+        }
+      ]
+    }
+  ]
+}
