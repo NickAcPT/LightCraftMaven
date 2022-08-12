@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.nickacpt.behaviours",
+    "module": "canvas",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "canvas-0.0.5.jar",
+          "url": "canvas-0.0.5.jar",
+          "size": 65353,
+          "sha512": "7ef96d9238af4a7536f1ff42cbebaec105cd5ccdf63782ab3d1544abb0f9ab43e62fc0e0b7c595e2236d518102252208ec2349386be67257a646ddc8c326957c",
+          "sha256": "dd9768c4e8af93173a2fef04ad9be6136088e5133b85fe96be7037833cfd1c2d",
+          "sha1": "3a46eaf79c76c11ce1156642f5588d577e279a8c",
+          "md5": "5600c7135a7a3e643a3fa2287a969f8a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "canvas-0.0.5.jar",
+          "url": "canvas-0.0.5.jar",
+          "size": 65353,
+          "sha512": "7ef96d9238af4a7536f1ff42cbebaec105cd5ccdf63782ab3d1544abb0f9ab43e62fc0e0b7c595e2236d518102252208ec2349386be67257a646ddc8c326957c",
+          "sha256": "dd9768c4e8af93173a2fef04ad9be6136088e5133b85fe96be7037833cfd1c2d",
+          "sha1": "3a46eaf79c76c11ce1156642f5588d577e279a8c",
+          "md5": "5600c7135a7a3e643a3fa2287a969f8a"
+        }
+      ]
+    }
+  ]
+}
